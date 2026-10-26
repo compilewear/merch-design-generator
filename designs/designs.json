@@ -1,0 +1,8 @@
+[
+  { "name": "angle-brackets", "lines": ["</>"], "placement": "chest", "weight": 700 },
+  { "name": "works-on-my-machine", "lines": ["it works on my machine"], "placement": "front", "weight": 400 },
+  { "name": "semicolon", "lines": [";"], "placement": "chest", "weight": 700 },
+  { "name": "localhost-home", "lines": ["127.0.0.1", "is home"], "placement": "front", "weight": 700, "subscale": 0.42 },
+  { "name": "undefined-not-a-function", "lines": ["undefined is not a function"], "placement": "front", "weight": 400 },
+  { "name": "git-push-force", "lines": ["$ git push --force"], "placement": "front", "weight": 700 }
+]

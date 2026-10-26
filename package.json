@@ -1,0 +1,22 @@
+{
+  "name": "merch-design-generator",
+  "version": "1.0.0",
+  "description": "Generate print-ready 4500×5400 transparent PNGs for print-on-demand apparel from a JSON file. SVG layout → raster → auto-trim.",
+  "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/compilewear/merch-design-generator"
+  },
+  "scripts": {
+    "generate": "node generate.mjs"
+  },
+  "dependencies": {
+    "@resvg/resvg-js": "^2.6.2",
+    "satori": "^0.33.5",
+    "sharp": "^0.35.4"
+  },
+  "engines": {
+    "node": ">=18.17"
+  }
+}
