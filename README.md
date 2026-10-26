@@ -26,6 +26,31 @@ npm run generate logic    # renders designs/logic/designs.json → designs/logic
 
 Fonts download automatically on first run (JetBrains Mono, SIL OFL — explicitly licensed for commercial use on physical products).
 
+## CLI — render your own text
+
+```sh
+npm run cli -- "it works on my machine"
+npm run cli -- "line one\nline two" --chest --ink black --out ./out
+npm run cli -- "permission denied" --weight 700 --name denied
+```
+
+Or install it globally / via npx:
+
+```sh
+npm i -g .
+compilewear "it works on my machine"
+```
+
+| Flag | Default | Meaning |
+|---|---|---|
+| `"\n"` | — | Literal `\n` splits lines |
+| `--chest` / `--front` | `front` | Print placement size |
+| `--ink` | `both` | `white`, `black`, or `both` |
+| `--weight` | `400` | Font weight (`400` or `700`) |
+| `--subscale` | `1` | Shrink lines 2+ relative to line 1 |
+| `--name` | `print` | Output basename |
+| `--out` | `./out` | Output directory |
+
 ## designs.json format
 
 ```json

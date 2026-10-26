@@ -8,8 +8,12 @@
     "type": "git",
     "url": "https://github.com/compilewear/merch-design-generator"
   },
+  "bin": {
+    "compilewear": "cli.mjs"
+  },
   "scripts": {
-    "generate": "node generate.mjs"
+    "generate": "node generate.mjs",
+    "cli": "node cli.mjs"
   },
   "dependencies": {
     "@resvg/resvg-js": "^2.6.2",
